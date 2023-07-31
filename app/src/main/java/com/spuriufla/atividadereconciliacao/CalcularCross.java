@@ -834,23 +834,22 @@ public class CalcularCross extends AppCompatActivity {
         for (int j = 0; j < len - 1; j++) {
             // Verifica se o índice j é igual a 0.
             if (j == 0) {
-                // Se for o primeiro elemento (j == 0), calcula a soma entre o primeiro e o segundo elemento e atribui ao vetor aux_Y.
+                // Se for o primeiro elemento (j == 0), calcula a soma entre o primeiro
+                // e o segundo elemento e atribui ao vetor aux_Y.
                 aux_Y[j] = y[j] + y[j + 1];
             } else {
                 // Caso contrário, atribui ao vetor aux_Y o valor do segundo elemento (j + 1).
-                aux_Y[j] = y[j + 1];
-            }
+                aux_Y[j] = y[j + 1];}
 
             // Atribui ao vetor aux_V o valor do segundo elemento (j + 1) do vetor original v.
             aux_V[j] = v[j + 1];
-
-            // Atribui à matriz aux_A[0][j] o valor do segundo elemento (j + 1) da primeira linha (índice 0) da matriz original A.
+            // Atribui à matriz aux_A[0][j] o valor do segundo elemento (j + 1) da primeira linha
+            // (índice 0) da matriz original A.
             aux_A[0][j] = A[0][j + 1];
         }
 
-        // Atualiza os vetores y, v e a matriz A com os dados armazenados em seus respectivos vetores auxiliares.
-        // Essa atualização parece ser parte do processo de reconciliação dos dados.
-        // É possível que existam outras etapas de reconciliação de dados que utilizem as informações atualizadas.
+        // Atualiza os vetores y, v e a matriz A com os dados armazenados em seus respectivos
+        // vetores auxiliares.
         y = aux_Y;
         v = aux_V;
         A = aux_A;
