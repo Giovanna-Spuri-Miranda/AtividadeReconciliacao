@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "211575986554",
+    "project_id": "atividadereconciliacao",
+    "storage_bucket": "atividadereconciliacao.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:211575986554:android:b92873179d98f19cf65ec3",
+        "android_client_info": {
+          "package_name": "com.spuriufla.atividadereconciliacao"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "211575986554-vtaal3h724jqmmj2h646rovdg6oln7l2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBnkMh1HW-1eTjk8lyWy1pgpqqzqsxBj8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "211575986554-vtaal3h724jqmmj2h646rovdg6oln7l2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

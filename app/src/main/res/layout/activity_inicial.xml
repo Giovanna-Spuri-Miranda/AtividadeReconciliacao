@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingLeft="32dp"
+    android:paddingRight="32dp"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/nomempresa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:layout_marginBottom="56dp"
+        android:fontFamily="@font/cherry_cream_soda"
+        android:gravity="center|top"
+        android:text="Logics Transporte"
+        android:textColor="#1D3733"
+        android:textSize="48sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/BTSimples"
+        android:layout_width="342dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:layout_marginBottom="36dp"
+        android:background="@drawable/backgroun_botao"
+        android:text="Simples"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#1D3733"
+        android:textColorHint="#1D3733"
+        android:textColorLink="#1D3733"
+        android:textSize="34sp"
+        app:backgroundTint="#203E39" />
+
+    <Button
+        android:id="@+id/BTCrossDocking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="36dp"
+        android:background="@drawable/backgroun_botao"
+        android:text="Cross Docking"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#1D3733"
+        android:textColorHint="#1D3733"
+        android:textColorLink="#1D3733"
+        android:textSize="34sp"
+        app:backgroundTint="#203E39" />
+
+    <TextView
+        android:id="@+id/desenhoCarro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:scrollbarSize="56dp"
+        app:drawableBottomCompat="@drawable/car" />
+
+</LinearLayout>

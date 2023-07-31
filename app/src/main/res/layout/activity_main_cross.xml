@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="center|center_horizontal"
+    android:orientation="vertical"
+    android:paddingLeft="32dp"
+    android:paddingRight="32dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/nomempresa"
+        android:layout_width="354dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:fontFamily="@font/cherry_cream_soda"
+        android:gravity="center|top"
+        android:text="Logics Transporte"
+        android:textColor="#1D3733"
+        android:textSize="42dp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textNumident"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/identif"
+        android:text="Número de identificacao"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/numIdentXross"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/background_text"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="numberDecimal"
+        android:padding="8dp"
+        android:text="201911222"
+        android:textColor="#000000"
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/textMotorista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/motorista"
+        android:text="Motorista"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/motoristaCross"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/background_text"
+        android:ems="10"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="Giovanna"
+        android:textColor="#000000"
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/textTempodesej"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/tempo"
+        android:text="Tempo Desejado (Min.)"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/tempoDesejadoCross"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/background_text"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="number"
+        android:padding="8dp"
+        android:text="60"
+        android:textColor="#000000"
+        android:textSize="24dp" />
+
+
+    <TextView
+        android:id="@+id/textAutonomia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/autonomia"
+        android:text="Autonomia (Km/L)"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/autonomiaCross"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/background_text"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="numberDecimal"
+        android:padding="8dp"
+        android:text="18.4"
+        android:textColor="#000000"
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/textCombustivel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/dinheiro"
+        android:text="Combustível (R$)"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/combustivelXross"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/background_text"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="numberDecimal"
+        android:padding="8dp"
+        android:text="4.93"
+        android:textColor="#000000"
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/textPassageiro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/passageiro"
+        android:text="Passageiro"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/itensSerXross"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/background_text"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="numberDecimal"
+        android:padding="8dp"
+        android:text="Arthur"
+        android:textColor="#000000"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/BTCalcularCross"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/backgroun_botao"
+        android:text="Calcular"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#1D3733"
+        android:textColorHint="#1D3733"
+        android:textColorLink="#1D3733"
+        android:textSize="32sp"
+        app:backgroundTint="#203E39" />
+
+</LinearLayout>
