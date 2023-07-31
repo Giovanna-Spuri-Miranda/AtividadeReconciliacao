@@ -23,57 +23,73 @@
         android:textSize="48sp"
         android:textStyle="bold|italic" />
 
-
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tempo Desejado (Min.)"
+        android:drawableLeft="@drawable/tempo"
+        android:textColor="#000000"
+        android:textSize="20sp"/>
     <EditText
         android:id="@+id/tempDesejado"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:background="@drawable/background_text"
-        android:drawableLeft="@drawable/tempo"
-        android:drawablePadding="8dp"
         android:ems="10"
-        android:hint="Tempo desejado"
-        android:inputType="time"
+        android:text="60"
+        android:gravity="center"
+        android:inputType="number"
         android:padding="16dp"
         android:textColor="#000000"
-        android:textColorHint="#000000"
         android:textSize="20sp" />
 
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Autonomia (Km/L)"
+        android:drawableLeft="@drawable/autonomia"
+        android:textColor="#000000"
+        android:textSize="20sp"/>
     <EditText
         android:id="@+id/autonomia"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:background="@drawable/background_text"
-        android:drawableLeft="@drawable/autonomia"
-        android:drawablePadding="8dp"
         android:ems="10"
-        android:hint="Autonomia"
-        android:inputType="number"
+        android:text="18.4"
+        android:gravity="center"
+        android:inputType="numberDecimal"
         android:padding="16dp"
         android:textColor="#000000"
-        android:textColorHint="#000000"
         android:textSize="20sp" />
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Combustível (R$)"
+        android:drawableLeft="@drawable/dinheiro"
+        android:textColor="#000000"
+        android:textSize="20sp"/>
+
     <EditText
-        android:id="@+id/combustível"
+        android:id="@+id/combustivel"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="48dp"
         android:background="@drawable/background_text"
-        android:drawableLeft="@drawable/dinheiro"
-        android:drawablePadding="8dp"
         android:ems="10"
-        android:hint="Combustível"
-        android:inputType="number"
+        android:text="4.93"
+        android:gravity="center"
+        android:inputType="numberDecimal"
         android:padding="16dp"
         android:textColor="#000000"
-        android:textColorHint="#000000"
         android:textSize="20sp" />
 
     <Button
-        android:id="@+id/BTCalcular"
+        android:id="@+id/BTSimples"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/backgroun_botao"
